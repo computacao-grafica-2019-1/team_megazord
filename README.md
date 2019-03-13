@@ -4,5 +4,7 @@ Objetivo: Utilize as funções da p5js, principalmente as relacionadas a transfo
 Além disso, o sketch deve ser interativo, fazendo com que o braço esquerdo seja rotacionado para cima quando o usuário pressionar a tecla E e com que o braço direito seja rotacionado para baixo quando o usuário pressionar a tecla D.
 
 Disciplina: Computação Gráfica
+
 Prof. Jackson Gomes
+
 Colaboradores: Lucas Lira, Rhuan Henrique
