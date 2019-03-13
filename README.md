@@ -6,4 +6,3 @@ Além disso, o sketch deve ser interativo, fazendo com que o braço esquerdo sej
 Disciplina: Computação Gráfica
 Prof. Jackson Gomes
 Colaboradores: Lucas Lira, Rhuan Henrique
-
