@@ -3,7 +3,6 @@ let anguloBE = 0;
 
 function draw() {
   createCanvas(400, 400);
-  textAlign(CENTER, CENTER);
 	background(200)
   fill(0);
 	
@@ -44,7 +43,18 @@ function draw() {
   rotate(radians(anguloBE))
   rect(0,-20, 100, 40)
   pop();
+
+  //Texto
+  push()
+  translate(0,350)
+  textSize(10)
+	fill(0)
+  textAlign(CENTER, BOTTOM);
+	text("Pressione: e para levantar o braço esquerdo; d para levantar o braço direito", 200, 40)
+  pop()
 }
+
+
 
 function keyPressed() {
 
@@ -61,4 +71,11 @@ function keyPressed() {
     anguloBE = 0;
   }
 
+}
+
+function display_hud() {
+	var t = 'Pressione: E para levantar o braço esquero; l para linha; r para retĂ¢ngulo; e para elipse';
+	text(s, width/2, height-40);	
+	s = 'Pressione i para mostrar/ocultar info na tela';
+	text(s, width/2, height-20);
 }
